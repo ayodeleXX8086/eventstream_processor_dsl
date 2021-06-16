@@ -1,0 +1,46 @@
+{
+  "rules": [
+    {
+      "conditions": {
+        "any": [
+          { "operator": "matchesRegex", "left": "$page_host", "right": ".*\\.gusto\\.com$" },
+          { "operator": "lessThanEqual", "left": "$ui_events.n_mouse_move", "right": 0 }
+        ]
+      },
+      "actions": [{ "action": "dropEvent" }]
+    },
+    {
+      "conditions": {
+        "all": [
+          { "operator": "matchesRegex", "left": "$page_title", "right": ".*Ticket \\d+" },
+          { "operator": "matchesRegex", "left": "$page_host", "right": ".*\\.zendesk\\.com$" }
+        ]
+      },
+      "actions": [
+        {
+          "action": "regexReplace",
+          "keyPath": "$page_title",
+          "pattern": "(- Ticket \\d+)",
+          "replacement": "---"
+        }
+      ]
+    },
+    {
+      "conditions": {
+        "all": [
+          {
+            "any": [
+              { "operator": "matchesRegex", "left": "$page_host", "right": ".*\\.zendesk\\.com$" },
+              { "operator": "matchesRegex", "left": "$page_host", "right": "^kb\\.fin\\.com$" }
+            ]
+          },
+          { "operator": "greaterThan", "left": "$ui_events.n_keypress", "right": 0 }
+        ]
+      },
+      "actions": [
+        { "action": "writeField", "keyPath": "$tags", "value": [], "overwriteIfExists": false },
+        { "action": "arrayAppend", "keyPath": "$tags", "value": "CRM Work" }
+      ]
+    }
+  ]
+}

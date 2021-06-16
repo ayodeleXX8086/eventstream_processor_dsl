@@ -1,0 +1,87 @@
+[
+  {
+    "begin_ts": "2020-09-16 15:00:54.445",
+    "end_ts": "2020-09-16 15:00:58.16",
+    "fin_extension_version": "1.05",
+    "id": 1001,
+    "is_in_browser": true,
+    "page_host": "analytics.fin.com",
+    "page_title": "Home - Fin Analytics",
+    "page_url": "https://analytics.fin.com/home",
+    "ui_events": {
+      "n_keypress": 0,
+      "n_mouse_click": 0,
+      "n_mouse_move": 0,
+      "n_mouse_scroll": 0
+    },
+    "user_id": 56183
+  },
+  {
+    "begin_ts": "2020-09-16 15:00:54.485",
+    "end_ts": "2020-09-16 15:00:58.338",
+    "fin_extension_version": "1.05",
+    "id": 1002,
+    "is_in_browser": true,
+    "page_host": "app.gusto.com",
+    "page_title": "Home - Gusto",
+    "page_url": "https://app.gusto.com/home",
+    "ui_events": {
+      "n_keypress": 0,
+      "n_mouse_click": 0,
+      "n_mouse_move": 1,
+      "n_mouse_scroll": 0
+    },
+    "user_id": 56182
+  },
+  {
+    "begin_ts": "2020-09-16 15:00:58.16",
+    "end_ts": "2020-09-16 15:01:01.456",
+    "fin_extension_version": "1.05",
+    "id": 1003,
+    "is_in_browser": true,
+    "page_host": "fin.zendesk.com",
+    "page_title": "Zendesk - Ticket 1234",
+    "page_url": "https://fin.zendesk.com/ticket/1234",
+    "ui_events": {
+      "n_keypress": 62,
+      "n_mouse_click": 0,
+      "n_mouse_move": 10,
+      "n_mouse_scroll": 1
+    },
+    "user_id": 56183
+  },
+  {
+    "begin_ts": "2020-09-16 15:00:58.338",
+    "end_ts": "2020-09-16 15:01:01.53",
+    "fin_extension_version": "1.05",
+    "id": 1004,
+    "is_in_browser": true,
+    "page_host": "kb.fin.com",
+    "page_title": "Fin Knowledge Base // How to Put Out a Printer Fire",
+    "page_url": "https://kb.fin.com/article/5678",
+    "ui_events": {
+      "n_keypress": 62,
+      "n_mouse_click": 0,
+      "n_mouse_move": 10,
+      "n_mouse_scroll": 0
+    },
+    "user_id": 56182
+  },
+  {
+    "begin_ts": "2020-09-16 15:01:01.456",
+    "end_ts": "2020-09-16 15:01:02.441",
+    "fin_extension_version": "1.05",
+    "id": 1005,
+    "is_in_browser": true,
+    "page_host": "fin.zendesk.com",
+    "page_title": "Zendesk - Ticket 5678",
+    "page_url": "https://fin.zendesk.com/ticket/5678",
+    "ui_events": {
+      "n_keypress": 0,
+      "n_mouse_click": 0,
+      "n_mouse_move": 10,
+      "n_mouse_scroll": 0
+    },
+    "user_id": 56183
+  }
+]
