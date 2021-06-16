@@ -106,7 +106,7 @@ def __interpolate_tag(tag, event):
     :param event: Event is a payload in which the tag and sub-tags are reading from
     :return: Tuple[str,Dict]
     """
-    if not isinstance(tag, str) or not "$" == tag[0]:
+    if not isinstance(tag, str) or not tag or not "$" == tag[0]:
         return tag, event
     node = event
     prev = None

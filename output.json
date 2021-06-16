@@ -1,0 +1,59 @@
+[
+  {
+    "begin_ts": "2020-09-16 15:00:58.16",
+    "end_ts": "2020-09-16 15:01:01.456",
+    "fin_extension_version": "1.05",
+    "id": 1003,
+    "is_in_browser": true,
+    "page_host": "fin.zendesk.com",
+    "page_title": "Zendesk ---",
+    "page_url": "https://fin.zendesk.com/ticket/1234",
+    "ui_events": {
+      "n_keypress": 62,
+      "n_mouse_click": 0,
+      "n_mouse_move": 10,
+      "n_mouse_scroll": 1
+    },
+    "user_id": 56183,
+    "tags": [
+      "CRM Work"
+    ]
+  },
+  {
+    "begin_ts": "2020-09-16 15:00:58.338",
+    "end_ts": "2020-09-16 15:01:01.53",
+    "fin_extension_version": "1.05",
+    "id": 1004,
+    "is_in_browser": true,
+    "page_host": "kb.fin.com",
+    "page_title": "Fin Knowledge Base // How to Put Out a Printer Fire",
+    "page_url": "https://kb.fin.com/article/5678",
+    "ui_events": {
+      "n_keypress": 62,
+      "n_mouse_click": 0,
+      "n_mouse_move": 10,
+      "n_mouse_scroll": 0
+    },
+    "user_id": 56182,
+    "tags": [
+      "CRM Work"
+    ]
+  },
+  {
+    "begin_ts": "2020-09-16 15:01:01.456",
+    "end_ts": "2020-09-16 15:01:02.441",
+    "fin_extension_version": "1.05",
+    "id": 1005,
+    "is_in_browser": true,
+    "page_host": "fin.zendesk.com",
+    "page_title": "Zendesk ---",
+    "page_url": "https://fin.zendesk.com/ticket/5678",
+    "ui_events": {
+      "n_keypress": 0,
+      "n_mouse_click": 0,
+      "n_mouse_move": 10,
+      "n_mouse_scroll": 0
+    },
+    "user_id": 56183
+  }
+]
